@@ -3,11 +3,9 @@ html {
 }
 
 div {
-    font-family: 'Montserrat';
-    height: 200px;
-    width: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     /* bring your own prefixes */
@@ -15,15 +13,16 @@ div {
     color: white;
 }
 
-#hours {
-    font-size: 5em;}
+#cronometro {
+  font-size: 5em;
+}
 
-#seconds {
-    font-size: 5em;}
-  
-  #minutes {
-    font-size: 5em;
-  }
-  #colon {
-    font-size: 5em;
-  }
+#boton {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    margin-top: 80px;
+
+}
