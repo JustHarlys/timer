@@ -1,5 +1,8 @@
 html {
-    background-color: #707070;
+    background-image: url("img/Lofi\ Background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 div {
@@ -8,13 +11,12 @@ div {
     position: absolute;
     top: 50%;
     left: 50%;
-    /* bring your own prefixes */
     transform: translate(-50%, -50%);
     color: white;
 }
 
 #cronometro {
-  font-size: 5em;
+  font-size: 8em;
 }
 
 #boton {
@@ -23,6 +25,11 @@ div {
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
-    margin-top: 80px;
-
-}
+    margin-top: 100px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    
+  }

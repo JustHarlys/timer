@@ -37,3 +37,17 @@ document.getElementById('boton').addEventListener('click', function() {
         iniciarCronometro();
     }
 });
+
+let iniciado = false;
+
+function iniciarParar() {
+    let boton = document.getElementById('boton');
+
+    if (!iniciado) {
+        boton.textContent = 'Stop';
+        iniciado = true;
+    } else {
+        boton.textContent = 'Start';
+        iniciado = false
+    }
+}
